@@ -69,11 +69,7 @@ main section{
 
 .card{
     width: 30%;
-    margin-bottom: 20px;
-
-    /* DEBUG */
-    height: 500px;
-    background-color: grey;
+    margin-bottom: 40px;
 }
 
 
