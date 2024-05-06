@@ -155,9 +155,6 @@ main section{
 /* FOOTER */
 .info-footer{
     background-color: #1a1a1a;
-
-    /* DEBUG */
-    height: 80px;
 }
 
 .info-footer>div{
@@ -167,6 +164,7 @@ main section{
 .info, .social{
     color: white;
     width: 50%;
+    margin: 20px;
 }
 
 .link-legali{
