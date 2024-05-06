@@ -70,7 +70,7 @@ main section{
 .flex-container-card{
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 170px;
+    padding-top: 100px;
 }
 
 .card{
