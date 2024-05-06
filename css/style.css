@@ -25,6 +25,7 @@
 .flex-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .division, .logo, .icons{
@@ -38,9 +39,22 @@
 
 
 /* MAIN */
-main .section{
-    display: flex;
-    justify-content: center;
+main section{
+    margin-top: 40px;
+}
+
+.wrap-card{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    margin-bottom: 20px;
+
+    /* DEBUG */
+    height: 500px;
+    background-color: grey;
+
 }
 
 
