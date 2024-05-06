@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 /* dimensione dei vari container */
 .container{
     width: 80%;
@@ -36,6 +40,19 @@
     border: 1PX dotted black;
 }
 
+.flex-container-division{
+    justify-content: start;
+}
+
+header nav ul{
+    list-style-type: none;
+    gap:10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* MAIN */
 main section{
