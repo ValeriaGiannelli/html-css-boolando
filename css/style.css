@@ -4,3 +4,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* dimensione dei vari container */
+.dimension{
+    width: 80%;
+
+    /* DEBUG */
+    height: 50px;
+}
+
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: #f76e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.division, .logo, .icons{
+    width: calc(100% / 3);
+    
+    /* DEBUG */
+    height: 50px;
+    background-color: aqua;
+    border: 1PX dotted black;
+}
