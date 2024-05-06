@@ -162,16 +162,36 @@ main section{
 
 .info-footer>div{
     margin: 0 auto;
-
-    /* debug */
-    height: 50px;
-    background-color: #f76e10;
 }
 
 .info, .social{
+    color: white;
     width: 50%;
-    /* DEBUG */
-    height: 30px;
-    background-color: aqua;
-    border: 1px dotted black;
 }
+
+.link-legali{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.link-legali a{
+    padding-right: 5px;
+}
+
+.social div{
+    text-align: start;
+}
+
+.flex-container-social{
+    justify-content: end;
+}
+
+.social-icons h5{
+    margin-bottom: 5px;
+}
+
+.social-icons a{
+    padding-right: 5px;
+    margin-top:5px;
+}
+
