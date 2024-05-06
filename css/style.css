@@ -92,6 +92,27 @@ main section{
     right: 0;
 }
 
+.labels{
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+.discount{
+    background-color: red;
+    padding: 3px 8px; 
+}
+
+.sustainability{
+    background-color: green;
+    padding: 3px 8px;
+}
+
 /* FOOTER */
 .info-footer{
     background-color: #1a1a1a;
